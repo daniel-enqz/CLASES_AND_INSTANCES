@@ -2,16 +2,7 @@ require 'pry-byebug'
 
 class Human
   attr_reader :name, :age
-<<<<<<< HEAD
-
-  #Writers => attr_writer and  #Reader => attr_reader
-  attr_accessor :height, :weight
-=======
-  attr_writer :weight
-
-  # attr_writer and attr_reader combined, but be selective when to use it!!! :)
-  attr_accessor :height
->>>>>>> 7d035ea1ff6dcf58fd9ff0b29f822b616ead8769
+  attr_accessor :height, :weight # attr_writer and attr_reader combined, but be selective when to use it!!! :)
 
   def initialize(name, age)
     # instance variables are the state/data of our instance
