@@ -1,0 +1,3 @@
+class LeWagonStudent
+
+end
